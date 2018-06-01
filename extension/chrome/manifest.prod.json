@@ -1,0 +1,23 @@
+{
+  "version": "0.0.0",
+  "name": "Hack This",
+  "manifest_version": 2,
+  "description": "INFO490 - Ali, Keller, Muhammad, Yul Song",
+  "browser_action": {
+    "default_title": "Hack This",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "img/icon-16.png",
+    "48": "img/icon-48.png",
+    "128": "img/icon-128.png"
+  },
+  "web_accessible_resources": [
+    "inject.html"
+  ],
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [ "contextMenus", "tabs", "storage", "<all_urls>" ],
+  "content_security_policy": "default-src 'self'; script-src 'self' 'unsafe-eval' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'; connect-src 'self' wss://*.firebaseio.com; style-src * 'unsafe-inline'; img-src 'self' data:;"
+}

@@ -1,0 +1,23 @@
+{
+  "version": "0.0.0",
+  "name": "Capstone Project - DEV",
+  "manifest_version": 2,
+  "description": "INFO490 - Ali, Keller, Muhammad, Yul Song",
+  "browser_action": {
+    "default_title": "Hack This",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "img/dev-icon-16.png",
+    "48": "img/dev-icon-48.png",
+    "128": "img/dev-icon-128.png"
+  },
+  "web_accessible_resources": [
+    "inject.html"
+  ],
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [ "activeTab", "contextMenus", "management", "tabs", "storage", "<all_urls>" ],
+  "content_security_policy": "default-src 'self'; script-src 'self' http://localhost:3000 https://localhost:3000 'unsafe-eval' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'; connect-src http://localhost:3000 https://localhost:3000 wss://*.firebaseio.com; style-src * 'unsafe-inline' 'self' blob:; img-src 'self' data:;"
+}

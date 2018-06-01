@@ -1,0 +1,13 @@
+node_modules
+npm-debug.log
+.DS_Store
+*.lock
+package-lock.json
+build/
+dev/
+app/flux/firebase.js
+
+*.zip
+*.crx
+*.pem
+update.xml

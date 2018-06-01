@@ -1,0 +1,18 @@
+doctype html
+
+html
+  head
+    meta(charset='UTF-8')
+    title Hack This
+    style.
+      html, body {
+        background-color: #CFD8DC
+      }
+      * {
+        box-sizing: border-box
+      }
+  body
+    #root
+    if env !== 'prod'
+      script(src='chrome-extension://lmhkpmbekcpmknklioeibfkpmmfibljd/js/redux-devtools-extension.js')
+    script(src=env == 'prod' ? '/js/securityextension.bundle.js' : 'https://localhost:3000/js/securityextension.bundle.js')

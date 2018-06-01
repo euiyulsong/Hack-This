@@ -1,0 +1,11 @@
+{
+  "presets": [
+    "react",
+    "stage-0",
+    [
+      "env",
+      { "targets": { "browsers": ["last 2 Chrome versions"] } }
+    ]
+  ],
+  "plugins": ["add-module-exports", "transform-decorators-legacy", "transform-runtime"]
+}

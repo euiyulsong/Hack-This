@@ -1,0 +1,24 @@
+/* Node Module CSS */
+@import "~normalize.css/normalize.css";
+
+/* Invisible scrollbar. NOTE, this only works because chrome rocks */
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+section {
+  padding: 8px;
+  padding-bottom: 0;
+}
+.react-json-view {
+  padding: 16px;
+  /* background-color: inherit !important;
+  font: 14px 'Roboto Mono', monospace;
+  line-height: 1.4em; */
+}
+pre {
+  margin: 0;
+  padding: 16px;
+  background-color: #ECEFF1;
+  overflow-x: scroll;
+}
