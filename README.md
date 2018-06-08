@@ -5,10 +5,11 @@
 [![Commercial: Not for Profit](https://img.shields.io/badge/commercial-Not%20for%20Profit-green.svg)](https://opensource.org/licenses/MIT)
 
 Team Members:
+- [Eui Yul Song](mailto:eysong@uw.edu)
 - [Ryan Keller](https://github.com/RcKeller)
 - [Ali Shubber](https://github.com/alishubber)
 - [Muhammad Hussain](https://github.com/mnh78614)
-- [Eui Yul Song](mailto:eysong@uw.edu)
+
 <!-- Refer to our GitHub accounts for contact information, as they are subject to change -->
 
 To facilitate everyday users and information professionals in developing a finer understanding of their online presence, we have developed Hack This - an automated web penetration testing tool for everyone.
